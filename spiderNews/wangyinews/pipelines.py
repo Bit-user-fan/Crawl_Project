@@ -18,7 +18,7 @@ class WangyinewsPipeline:
     def process_item(self, item, spider):
         title = item['title']
         content = item['content']
-        self.fp.write(title + ':' + content + '\n')
+        self.fp.write(title + ':' + content.strip() + '\n\n\n')
         return item
 
     def close_spider(self, spider):
