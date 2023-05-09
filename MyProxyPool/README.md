@@ -1,4 +1,4 @@
-# MyProxyPool
+# MyProxyPool🐍
 
 简易高效的代理池，提供如下功能：
 
